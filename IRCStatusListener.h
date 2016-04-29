@@ -1,0 +1,1 @@
+/*  * File:   IRCStatusListener.h * Author: Florian * * Created on 20. Februar 2015, 23:09 */#pragma once#include "main.h"#include <algorithm>class IRCStatusListener {public:    IRCStatusListener(IRCBot *bot);    IRCStatusListener(const IRCStatusListener& orig);    virtual ~IRCStatusListener();    void Analyze(std::string message);private:    IRCBot *bot;};

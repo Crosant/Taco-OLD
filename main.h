@@ -1,0 +1,1 @@
+/*  * File:   main.h * Author: Florian * * Created on 21. Februar 2015, 13:08 */#ifndef MAIN_H#define	MAIN_Hclass IRCBot;class IRCConnection;class IRCChatListener;class IRCStatusListener;class IRCCommand;class IRCUser;class TwitchListener;#endif	/* MAIN_H */

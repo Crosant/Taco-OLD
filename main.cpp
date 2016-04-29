@@ -1,0 +1,1 @@
+/* * File:   main.cpp * Author: Florian * * Created on 20. Februar 2015, 22:45 */#include <cstdlib>#include "main.h"#include "IRCBot.h"using namespace std;/* *  */int main(int argc, char** argv) {    IRCBot *bot = new IRCBot();    bot->start();    delete bot;    return 0;}
